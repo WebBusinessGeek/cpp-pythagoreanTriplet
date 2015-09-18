@@ -1,0 +1,15 @@
+13:49:03 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../test/Algorithm_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/Algorithm_test.d" -MT"test/Algorithm_test.d" -o "test/Algorithm_test.o" "../test/Algorithm_test.cpp"
+Finished building: ../test/Algorithm_test.cpp
+ 
+Building target: pythagoreanTriplet
+Invoking: MacOS X C++ Linker
+g++  -o "pythagoreanTriplet"  ./test/Algorithm_test.o ./test/gtest_main.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: pythagoreanTriplet
+ 
+
+13:49:04 Build Finished (took 1s.6ms)
+

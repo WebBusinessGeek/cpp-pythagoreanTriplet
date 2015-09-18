@@ -1,0 +1,17 @@
+/*
+ * Algorithm.h
+ *
+ *  Created on: Sep 18, 2015
+ *      Author: MacBookEr
+ */
+
+#ifndef INCLUDE_ALGORITHM_H_
+#define INCLUDE_ALGORITHM_H_
+
+class Algorithm {
+public:
+	Algorithm();
+	virtual ~Algorithm();
+};
+
+#endif /* INCLUDE_ALGORITHM_H_ */

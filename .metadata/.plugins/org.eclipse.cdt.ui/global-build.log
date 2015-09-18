@@ -1,0 +1,142 @@
+13:41:59 **** Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../test/Algorithm_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/Algorithm_test.d" -MT"test/Algorithm_test.d" -o "test/Algorithm_test.o" "../test/Algorithm_test.cpp"
+Finished building: ../test/Algorithm_test.cpp
+ 
+Building file: ../test/gtest_main.cc
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/gtest_main.d" -MT"test/gtest_main.d" -o "test/gtest_main.o" "../test/gtest_main.cc"
+Finished building: ../test/gtest_main.cc
+ 
+Building file: ../src/Algorithm.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm.d" -MT"src/Algorithm.d" -o "src/Algorithm.o" "../src/Algorithm.cpp"
+Finished building: ../src/Algorithm.cpp
+ 
+Building file: ../gtest_src/gtest/gtest-all.cc
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"gtest_src/gtest/gtest-all.d" -MT"gtest_src/gtest/gtest-all.d" -o "gtest_src/gtest/gtest-all.o" "../gtest_src/gtest/gtest-all.cc"
+../gtest_src/gtest/gtest-all.cc:7921:12: warning: unused variable 'kPathSeparatorString' [-Wunused-const-variable]
+const char kPathSeparatorString[] = "/";
+           ^
+1 warning generated.
+Finished building: ../gtest_src/gtest/gtest-all.cc
+ 
+Building target: pythagoreanTriplet
+Invoking: MacOS X C++ Linker
+g++  -o "pythagoreanTriplet"  ./test/Algorithm_test.o ./test/gtest_main.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: pythagoreanTriplet
+ 
+13:42:16 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.
+13:42:24 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../test/Algorithm_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/Algorithm_test.d" -MT"test/Algorithm_test.d" -o "test/Algorithm_test.o" "../test/Algorithm_test.cpp"
+Finished building: ../test/Algorithm_test.cpp
+ 
+Building target: pythagoreanTriplet
+Invoking: MacOS X C++ Linker
+g++  -o "pythagoreanTriplet"  ./test/Algorithm_test.o ./test/gtest_main.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: pythagoreanTriplet
+ 
+13:42:32 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.
+13:42:35 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.
+13:43:08 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.
+13:45:29 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../test/Algorithm_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/Algorithm_test.d" -MT"test/Algorithm_test.d" -o "test/Algorithm_test.o" "../test/Algorithm_test.cpp"
+Finished building: ../test/Algorithm_test.cpp
+ 
+Building file: ../test/gtest_main.cc
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/gtest_main.d" -MT"test/gtest_main.d" -o "test/gtest_main.o" "../test/gtest_main.cc"
+Finished building: ../test/gtest_main.cc
+ 
+Building file: ../gtest_src/gtest/gtest-all.cc
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"gtest_src/gtest/gtest-all.d" -MT"gtest_src/gtest/gtest-all.d" -o "gtest_src/gtest/gtest-all.o" "../gtest_src/gtest/gtest-all.cc"
+../gtest_src/gtest/gtest-all.cc:2729:10: error: call to 'wcsstr' is ambiguous
+  return wcsstr(haystack, needle) != NULL;
+         ^~~~~~
+/usr/include/wchar.h:141:10: note: candidate function
+wchar_t *wcsstr(const wchar_t * __restrict, const wchar_t * __restrict);
+         ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cwchar:189:49: note: candidate function
+inline _LIBCPP_INLINE_VISIBILITY const wchar_t* wcsstr(const wchar_t* __s1, const wchar_t* __s2) {return ::wcsstr(__s1, __s2);}
+                                                ^
+1 error generated.
+make: *** [gtest_src/gtest/gtest-all.o] Error 1
+13:46:08 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../test/Algorithm_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/Algorithm_test.d" -MT"test/Algorithm_test.d" -o "test/Algorithm_test.o" "../test/Algorithm_test.cpp"
+Finished building: ../test/Algorithm_test.cpp
+ 
+Building file: ../test/gtest_main.cc
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/gtest_main.d" -MT"test/gtest_main.d" -o "test/gtest_main.o" "../test/gtest_main.cc"
+Finished building: ../test/gtest_main.cc
+ 
+Building file: ../gtest_src/gtest/gtest-all.cc
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"gtest_src/gtest/gtest-all.d" -MT"gtest_src/gtest/gtest-all.d" -o "gtest_src/gtest/gtest-all.o" "../gtest_src/gtest/gtest-all.cc"
+../gtest_src/gtest/gtest-all.cc:7921:12: warning: unused variable 'kPathSeparatorString' [-Wunused-const-variable]
+const char kPathSeparatorString[] = "/";
+           ^
+1 warning generated.
+Finished building: ../gtest_src/gtest/gtest-all.cc
+ 
+Building target: pythagoreanTriplet
+Invoking: MacOS X C++ Linker
+g++  -o "pythagoreanTriplet"  ./test/Algorithm_test.o ./test/gtest_main.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: pythagoreanTriplet
+ 
+13:46:26 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.
+13:48:39 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../test/Algorithm_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/Algorithm_test.d" -MT"test/Algorithm_test.d" -o "test/Algorithm_test.o" "../test/Algorithm_test.cpp"
+Finished building: ../test/Algorithm_test.cpp
+ 
+Building file: ../src/Algorithm.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm.d" -MT"src/Algorithm.d" -o "src/Algorithm.o" "../src/Algorithm.cpp"
+Finished building: ../src/Algorithm.cpp
+ 
+Building target: pythagoreanTriplet
+Invoking: MacOS X C++ Linker
+g++  -o "pythagoreanTriplet"  ./test/Algorithm_test.o ./test/gtest_main.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: pythagoreanTriplet
+ 
+13:48:45 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.
+13:49:03 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../test/Algorithm_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/Algorithm_test.d" -MT"test/Algorithm_test.d" -o "test/Algorithm_test.o" "../test/Algorithm_test.cpp"
+Finished building: ../test/Algorithm_test.cpp
+ 
+Building target: pythagoreanTriplet
+Invoking: MacOS X C++ Linker
+g++  -o "pythagoreanTriplet"  ./test/Algorithm_test.o ./test/gtest_main.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: pythagoreanTriplet
+ 

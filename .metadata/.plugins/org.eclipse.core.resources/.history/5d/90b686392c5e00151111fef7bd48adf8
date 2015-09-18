@@ -1,0 +1,18 @@
+/*
+ * Algorithm.cpp
+ *
+ *  Created on: Sep 18, 2015
+ *      Author: MacBookEr
+ */
+
+#include "/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include/Algorithm.h"
+
+Algorithm::Algorithm() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Algorithm::~Algorithm() {
+	// TODO Auto-generated destructor stub
+}
+

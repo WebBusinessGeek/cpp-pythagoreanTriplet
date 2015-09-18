@@ -1,0 +1,10 @@
+/*
+ * Algorithm_test.cpp
+ *
+ *  Created on: Sep 18, 2015
+ *      Author: MacBookEr
+ */
+
+#include "gtest/gtest.h"
+#include "Algorithm.h"
+
