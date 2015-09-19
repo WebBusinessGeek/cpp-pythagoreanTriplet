@@ -1,0 +1,26 @@
+/*
+ * Algorithm.cpp
+ *
+ *  Created on: Sep 18, 2015
+ *      Author: MacBookEr
+ */
+
+#include "Algorithm.h"
+
+Algorithm::Algorithm() {
+	// TODO Auto-generated constructor stub
+	this->testStatus = "Tests are working";
+}
+
+Algorithm::~Algorithm() {
+	// TODO Auto-generated destructor stub
+}
+
+string Algorithm::getTestStatus() const {
+	return this->testStatus;
+}
+
+vector<int> Algorithm::findPythagoreanTripletOfInteger() const {
+
+}
+

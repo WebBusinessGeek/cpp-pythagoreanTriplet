@@ -1,0 +1,29 @@
+/*
+ * Algorithm_test.cpp
+ *
+ *  Created on: Sep 18, 2015
+ *      Author: MacBookEr
+ */
+
+#include <Algorithm.h>
+#include <gtest/gtest.h>
+
+
+TEST(EnsureTestsAreWorking, itShouldReturnTrue) {
+	Algorithm alg = Algorithm();
+	string result = alg.getTestStatus();
+	string correct = "Tests are working";
+	EXPECT_EQ(correct, result);
+}
+
+TEST(GetAllFactorsOfANumber, itShouldReturnFactorGroupsForAnInteger) {
+	Algorithm alg = Algorithm();
+	int integerToFactor = 18;
+	vector <int> result;
+	vector <int> firstFactors = [1,18];
+	vector <int> secondFactors = [2,9];
+	vector <int> thirdFactors = [3,6];
+
+//			(1, 18), (2, 9), and (3, 6)
+
+}

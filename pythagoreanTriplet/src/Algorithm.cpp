@@ -20,3 +20,30 @@ string Algorithm::getTestStatus() const {
 	return this->testStatus;
 }
 
+vector <vector <int> > Algorithm::getFactorsForInteger(int integerToFactor) {
+	int countStart = 1;
+	vector <vector <int> > intVectorToReturn;
+	vector <int> used;
+
+	while(countStart < integerToFactor) {
+		if(integerToFactor % countStart == 0) {
+			bool alreadyInArray = false;
+			for(int count = 0; count < used.size(); count++) {
+				if(used[count] == countStart) {
+					alreadyInArray = true;
+				}
+			}
+			if(!alreadyInArray) {
+				vector <int> tempVector;
+				tempVector.push_back(countStart);
+				tempVector.push_back(integerToFactor / countStart);
+				intVectorToReturn.push_back(tempVector);
+				used.push_back(countStart);
+				used.push_back(integerToFactor / countStart);
+			}
+
+		}
+		countStart++;
+	}
+	return intVectorToReturn;
+}

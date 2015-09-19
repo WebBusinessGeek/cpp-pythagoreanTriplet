@@ -10,6 +10,9 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
+
+
 
 using namespace std;
 
@@ -22,8 +25,11 @@ public:
 
 	string getTestStatus() const;
 
+	vector <vector <int> > getFactorsForInteger(int integerToFactor);
+
 private:
 	string testStatus;
+
 };
 
 

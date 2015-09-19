@@ -1,4 +1,4 @@
-13:49:03 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+23:36:38 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
 make all 
 Building file: ../test/Algorithm_test.cpp
 Invoking: GCC C++ Compiler
@@ -11,5 +11,5 @@ g++  -o "pythagoreanTriplet"  ./test/Algorithm_test.o ./test/gtest_main.o  ./src
 Finished building target: pythagoreanTriplet
  
 
-13:49:04 Build Finished (took 1s.6ms)
+23:36:40 Build Finished (took 1s.311ms)
 
