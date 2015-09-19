@@ -27,6 +27,8 @@ public:
 
 	vector <vector <int> > getFactorsForInteger(int integerToFactor);
 
+	int returnRInPythagoreanFunction(int intger);
+
 private:
 	string testStatus;
 

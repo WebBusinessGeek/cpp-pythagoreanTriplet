@@ -47,3 +47,10 @@ vector <vector <int> > Algorithm::getFactorsForInteger(int integerToFactor) {
 	}
 	return intVectorToReturn;
 }
+
+int Algorithm::returnRInPythagoreanFunction(int integer) {
+	if(integer % 2 != 0) {
+		throw "Can't use odd numbers chief.";
+	}
+	return (integer * integer) / 2;
+}

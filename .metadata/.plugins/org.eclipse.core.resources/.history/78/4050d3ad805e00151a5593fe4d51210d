@@ -1,0 +1,36 @@
+/*
+ * Algorithm.h
+ *
+ *  Created on: Sep 18, 2015
+ *      Author: MacBookEr
+ */
+
+#ifndef INCLUDE_ALGORITHM_H_
+#define INCLUDE_ALGORITHM_H_
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+
+
+using namespace std;
+
+class Algorithm {
+
+
+public:
+	Algorithm();
+	virtual ~Algorithm();
+
+	string getTestStatus() const;
+
+	vector <vector <int> > getFactorsForInteger(int integerToFactor);
+
+private:
+	string testStatus;
+
+};
+
+
+#endif /* INCLUDE_ALGORITHM_H_ */

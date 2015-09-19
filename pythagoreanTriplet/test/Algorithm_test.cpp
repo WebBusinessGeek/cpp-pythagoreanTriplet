@@ -38,3 +38,19 @@ TEST(GetAllFactorsOfANumber, itShouldReturnFactorGroupsForAnInteger) {
 
 	EXPECT_EQ(correct,result);
 }
+
+TEST(ReturnRInPythagoreanFunction, itShouldReturnEvenIntegersSquaredThenDividedByTwo) {
+	Algorithm alg = Algorithm();
+	int evenNumber = 6;
+	int result = alg.returnRInPythagoreanFunction(evenNumber);
+	int correct = 18;
+	EXPECT_EQ(correct, result);
+}
+
+TEST(ReturnRInPythagoreanFunction, itshouldThrowErrorIfOddNumberIsUsed) {
+	Algorithm alg = Algorithm();
+	int oddNumber = 5;
+	int result = alg.returnRInPythagoreanFunction(oddNumber);
+	string statement = "Can't use odd numbers chief.";
+	EXPECT_THROW(statement, string);
+}
