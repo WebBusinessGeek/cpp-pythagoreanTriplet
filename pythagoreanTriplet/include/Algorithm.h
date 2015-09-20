@@ -27,7 +27,9 @@ public:
 
 	vector <vector <int> > getFactorsForInteger(int integerToFactor);
 
-	int returnRInPythagoreanFunction(int intger);
+	int squareIntegerAndDivideInHalf(int intger);
+
+	vector <vector <int> > findPythagoreanTriplets(int r, vector <vector <int> > factorialsOfRSquaredAndDividedByTwo);
 
 private:
 	string testStatus;

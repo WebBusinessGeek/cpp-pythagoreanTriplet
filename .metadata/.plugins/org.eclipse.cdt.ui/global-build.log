@@ -331,3 +331,191 @@ Invoking: MacOS X C++ Linker
 g++  -o "pythagoreanTriplet"  ./test/Algorithm_test.o ./test/gtest_main.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
 Finished building target: pythagoreanTriplet
  
+14:57:24 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../test/Algorithm_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/Algorithm_test.d" -MT"test/Algorithm_test.d" -o "test/Algorithm_test.o" "../test/Algorithm_test.cpp"
+../test/Algorithm_test.cpp:55:15: warning: expression result unused [-Wunused-value]
+        EXPECT_THROW(statement, string);
+                     ^~~~~~~~~
+/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src/gtest/gtest.h:19314:21: note: expanded from macro 'EXPECT_THROW'
+  GTEST_TEST_THROW_(statement, expected_exception, GTEST_NONFATAL_FAILURE_)
+                    ^
+/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src/gtest/gtest.h:8013:54: note: expanded from macro 'GTEST_TEST_THROW_'
+      GTEST_SUPPRESS_UNREACHABLE_CODE_WARNING_BELOW_(statement); \
+                                                     ^
+/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src/gtest/gtest.h:8006:44: note: expanded from macro 'GTEST_SUPPRESS_UNREACHABLE_CODE_WARNING_BELOW_'
+  if (::testing::internal::AlwaysTrue()) { statement; }
+                                           ^
+../test/Algorithm_test.cpp:53:6: warning: unused variable 'result' [-Wunused-variable]
+        int result = alg.squareIntegerAndDivideInHalf(oddNumber);
+            ^
+2 warnings generated.
+Finished building: ../test/Algorithm_test.cpp
+ 
+Building file: ../src/Algorithm.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm.d" -MT"src/Algorithm.d" -o "src/Algorithm.o" "../src/Algorithm.cpp"
+../src/Algorithm.cpp:51:16: error: out-of-line definition of 'returnRInPythagoreanFunction' does not match any declaration in 'Algorithm'
+int Algorithm::returnRInPythagoreanFunction(int integer) {
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [src/Algorithm.o] Error 1
+14:57:58 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../src/Algorithm.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm.d" -MT"src/Algorithm.d" -o "src/Algorithm.o" "../src/Algorithm.cpp"
+../src/Algorithm.cpp:51:16: error: out-of-line definition of 'returnRInPythagoreanFunction' does not match any declaration in 'Algorithm'
+int Algorithm::returnRInPythagoreanFunction(int integer) {
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [src/Algorithm.o] Error 1
+14:58:05 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../src/Algorithm.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm.d" -MT"src/Algorithm.d" -o "src/Algorithm.o" "../src/Algorithm.cpp"
+Finished building: ../src/Algorithm.cpp
+ 
+Building target: pythagoreanTriplet
+Invoking: MacOS X C++ Linker
+g++  -o "pythagoreanTriplet"  ./test/Algorithm_test.o ./test/gtest_main.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: pythagoreanTriplet
+ 
+14:58:45 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../test/Algorithm_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/Algorithm_test.d" -MT"test/Algorithm_test.d" -o "test/Algorithm_test.o" "../test/Algorithm_test.cpp"
+Finished building: ../test/Algorithm_test.cpp
+ 
+Building target: pythagoreanTriplet
+Invoking: MacOS X C++ Linker
+g++  -o "pythagoreanTriplet"  ./test/Algorithm_test.o ./test/gtest_main.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: pythagoreanTriplet
+ 
+14:58:49 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.
+14:58:58 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.
+16:40:22 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../test/Algorithm_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/Algorithm_test.d" -MT"test/Algorithm_test.d" -o "test/Algorithm_test.o" "../test/Algorithm_test.cpp"
+In file included from ../test/Algorithm_test.cpp:8:
+/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include/Algorithm.h:32:75: error: a space is required between consecutive right angle brackets (use '> >')
+        vector <vector <int> > findPythagoreanTriplets(int r, vector <vector <int>> factorialsOfRSquaredAndDividedByTwo);
+                                                                                 ^~
+                                                                                 > >
+1 error generated.
+make: *** [test/Algorithm_test.o] Error 1
+16:40:27 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../test/Algorithm_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/Algorithm_test.d" -MT"test/Algorithm_test.d" -o "test/Algorithm_test.o" "../test/Algorithm_test.cpp"
+In file included from ../test/Algorithm_test.cpp:8:
+/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include/Algorithm.h:32:75: error: a space is required between consecutive right angle brackets (use '> >')
+        vector <vector <int> > findPythagoreanTriplets(int r, vector <vector <int>> factorialsOfRSquaredAndDividedByTwo);
+                                                                                 ^~
+                                                                                 > >
+1 error generated.
+make: *** [test/Algorithm_test.o] Error 1
+16:41:22 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../test/Algorithm_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/Algorithm_test.d" -MT"test/Algorithm_test.d" -o "test/Algorithm_test.o" "../test/Algorithm_test.cpp"
+In file included from ../test/Algorithm_test.cpp:8:
+/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include/Algorithm.h:32:75: error: a space is required between consecutive right angle brackets (use '> >')
+        vector <vector <int> > findPythagoreanTriplets(int r, vector <vector <int>> factorialsOfRSquaredAndDividedByTwo);
+                                                                                 ^~
+                                                                                 > >
+1 error generated.
+make: *** [test/Algorithm_test.o] Error 1
+16:41:57 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../test/Algorithm_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/Algorithm_test.d" -MT"test/Algorithm_test.d" -o "test/Algorithm_test.o" "../test/Algorithm_test.cpp"
+In file included from ../test/Algorithm_test.cpp:8:
+/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include/Algorithm.h:32:75: error: a space is required between consecutive right angle brackets (use '> >')
+        vector <vector <int> > findPythagoreanTriplets(int r, vector <vector <int>> factorialsOfRSquaredAndDividedByTwo);
+                                                                                 ^~
+                                                                                 > >
+1 error generated.
+make: *** [test/Algorithm_test.o] Error 1
+16:42:05 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../test/Algorithm_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/Algorithm_test.d" -MT"test/Algorithm_test.d" -o "test/Algorithm_test.o" "../test/Algorithm_test.cpp"
+Finished building: ../test/Algorithm_test.cpp
+ 
+Building file: ../src/Algorithm.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm.d" -MT"src/Algorithm.d" -o "src/Algorithm.o" "../src/Algorithm.cpp"
+../src/Algorithm.cpp:55:85: error: a space is required between consecutive right angle brackets (use '> >')
+vector <vector <int> > Algorithm::findPythagoreanTriplets(int r, vector <vector <int>> factorialsOfRSquaredAndDividedInHalf) {
+                                                                                    ^~
+                                                                                    > >
+../src/Algorithm.cpp:59:53: error: reference to non-static member function must be called; did you mean to call it with no arguments?
+        while(count < factorialsOfRSquaredAndDividedInHalf.size) {
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+                                                               ()
+2 errors generated.
+make: *** [src/Algorithm.o] Error 1
+16:42:50 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../src/Algorithm.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm.d" -MT"src/Algorithm.d" -o "src/Algorithm.o" "../src/Algorithm.cpp"
+Finished building: ../src/Algorithm.cpp
+ 
+Building target: pythagoreanTriplet
+Invoking: MacOS X C++ Linker
+g++  -o "pythagoreanTriplet"  ./test/Algorithm_test.o ./test/gtest_main.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: pythagoreanTriplet
+ 
+16:42:54 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.
+16:43:40 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.
+16:44:28 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.
+16:44:33 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.
+16:44:35 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.
+16:44:39 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.
+16:45:58 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../src/Algorithm.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm.d" -MT"src/Algorithm.d" -o "src/Algorithm.o" "../src/Algorithm.cpp"
+../src/Algorithm.cpp:57:6: warning: unused variable 'count' [-Wunused-variable]
+        int count = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Algorithm.cpp
+ 
+Building target: pythagoreanTriplet
+Invoking: MacOS X C++ Linker
+g++  -o "pythagoreanTriplet"  ./test/Algorithm_test.o ./test/gtest_main.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: pythagoreanTriplet
+ 
+16:46:21 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.

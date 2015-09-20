@@ -23,15 +23,19 @@ TEST(GetAllFactorsOfANumber, itShouldReturnFactorGroupsForAnInteger) {
 	vector <vector <int> > result = alg.getFactorsForInteger(integerToFactor);
 
 	vector <vector <int> > correct;
+
 	vector <int> firstFactors;
 	firstFactors.push_back(1);
 	firstFactors.push_back(18);
+
 	vector <int> secondFactors;
 	secondFactors.push_back(2);
 	secondFactors.push_back(9);
+
 	vector <int> thirdFactors;
 	thirdFactors.push_back(3);
 	thirdFactors.push_back(6);
+
 	correct.push_back(firstFactors);
 	correct.push_back(secondFactors);
 	correct.push_back(thirdFactors);
@@ -39,18 +43,42 @@ TEST(GetAllFactorsOfANumber, itShouldReturnFactorGroupsForAnInteger) {
 	EXPECT_EQ(correct,result);
 }
 
-TEST(ReturnRInPythagoreanFunction, itShouldReturnEvenIntegersSquaredThenDividedByTwo) {
+TEST(SquareIntegerandDivideInHalf, itShouldReturnEvenIntegersSquaredThenDividedByTwo) {
 	Algorithm alg = Algorithm();
 	int evenNumber = 6;
-	int result = alg.returnRInPythagoreanFunction(evenNumber);
+	int result = alg.squareIntegerAndDivideInHalf(evenNumber);
 	int correct = 18;
 	EXPECT_EQ(correct, result);
 }
 
-TEST(ReturnRInPythagoreanFunction, itshouldThrowErrorIfOddNumberIsUsed) {
+TEST(FindPythagoreanTriplets, itShouldReturnAllPossiblePythagoreanTripletsOfR) {
 	Algorithm alg = Algorithm();
-	int oddNumber = 5;
-	int result = alg.returnRInPythagoreanFunction(oddNumber);
-	string statement = "Can't use odd numbers chief.";
-	EXPECT_THROW(statement, string);
+	int r = 6;
+	int rSquaredAndDividedInHalf = alg.squareIntegerAndDivideInHalf(r);
+
+	vector <vector <int> > factors = alg.getFactorsForInteger(rSquaredAndDividedInHalf);
+	vector <vector <int> > result = alg.findPythagoreanTriplets(r, factors);
+
+	vector <vector <int> > correct;
+
+	vector <int> firstTriplet;
+	firstTriplet.push_back(7);
+	firstTriplet.push_back(24);
+	firstTriplet.push_back(25);
+
+	vector <int> secondTriplet;
+	secondTriplet.push_back(8);
+	secondTriplet.push_back(15);
+	secondTriplet.push_back(17);
+
+	vector <int> thirdTriplet;
+	thirdTriplet.push_back(9);
+	thirdTriplet.push_back(12);
+	thirdTriplet.push_back(15);
+
+	correct.push_back(firstTriplet);
+	correct.push_back(secondTriplet);
+	correct.push_back(thirdTriplet);
+
+	EXPECT_EQ(correct,result);
 }
