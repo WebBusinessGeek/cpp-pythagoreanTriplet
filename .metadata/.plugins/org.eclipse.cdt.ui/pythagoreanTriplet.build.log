@@ -1,6 +1,15 @@
-16:46:21 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+09:30:39 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
 make all 
-make: Nothing to be done for `all'.
+Building file: ../src/Algorithm.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm.d" -MT"src/Algorithm.d" -o "src/Algorithm.o" "../src/Algorithm.cpp"
+Finished building: ../src/Algorithm.cpp
+ 
+Building target: pythagoreanTriplet
+Invoking: MacOS X C++ Linker
+g++  -o "pythagoreanTriplet"  ./test/Algorithm_test.o ./test/gtest_main.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: pythagoreanTriplet
+ 
 
-16:46:21 Build Finished (took 68ms)
+09:30:39 Build Finished (took 859ms)
 

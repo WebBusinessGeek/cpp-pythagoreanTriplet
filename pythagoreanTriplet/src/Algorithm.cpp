@@ -54,21 +54,28 @@ int Algorithm::squareIntegerAndDivideInHalf(int integer) {
 
 vector <vector <int> > Algorithm::findPythagoreanTriplets(int r, vector <vector <int> > factorialsOfRSquaredAndDividedInHalf) {
 	vector < vector <int> > triplets;
+
+
 	int count = 0;
 
-//	while(count < factorialsOfRSquaredAndDividedInHalf.size()) {
-//		int s = factorialsOfRSquaredAndDividedInHalf[count][0];
-//		int t = factorialsOfRSquaredAndDividedInHalf[count][1];
-//		int x = r + s;
-//		int y = r + t;
-//		int z = r + s + t;
-//		if((x * x) + (y * y) == (z * z)) {
-//			triplets[count][0] = x;
-//			triplets[count][1] = y;
-//			triplets[count][2] = z;
-//		}
-//		count++;
-//	}
+	while(count < factorialsOfRSquaredAndDividedInHalf.size()) {
+		int s = factorialsOfRSquaredAndDividedInHalf[count][0];
+		int t = factorialsOfRSquaredAndDividedInHalf[count][1];
+		count++;
+		int x = r + s;
+		int y = r + t;
+		int z = r + s + t;
+		if(((x * x) + (y * y)) == (z * z)) {
+			vector <int> addToTriplets;
+			addToTriplets.push_back(x);
+			addToTriplets.push_back(y);
+			addToTriplets.push_back(z);
+			triplets.push_back(addToTriplets);
+			addToTriplets.clear();
+		}
+	}
+
+
 	return triplets;
 
 }
