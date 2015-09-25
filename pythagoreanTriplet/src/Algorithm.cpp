@@ -79,3 +79,25 @@ vector <vector <int> > Algorithm::findPythagoreanTriplets(int r, vector <vector 
 	return triplets;
 
 }
+
+vector <int> Algorithm::findVectorGroupThatMatchesSum(vector <vector <int> > vectorToCheck, int sumToMatch) {
+	vector <int> returnValue;
+	int limit = vectorToCheck.size();
+	int counter = 0;
+	bool groupFound = false;
+
+	while(counter < limit && !groupFound) {
+		int sumOfGroup = 0;
+		for(int i = 0; i < vectorToCheck[counter].size(); i++) {
+			sumOfGroup += vectorToCheck[counter][i];
+		}
+		if(sumToMatch == sumOfGroup){
+			groupFound = true;
+			for(int j = 0; j < vectorToCheck[counter].size(); j++){
+				returnValue.push_back(vectorToCheck[counter][j]);
+			}
+		}
+		counter++;
+	}
+	return returnValue;
+}

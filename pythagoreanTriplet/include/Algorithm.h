@@ -9,7 +9,6 @@
 #define INCLUDE_ALGORITHM_H_
 
 #include <iostream>
-#include <string>
 #include <vector>
 
 
@@ -30,6 +29,8 @@ public:
 	int squareIntegerAndDivideInHalf(int intger);
 
 	vector <vector <int> > findPythagoreanTriplets(int r, vector <vector <int> > factorialsOfRSquaredAndDividedByTwo);
+
+	vector <int> findVectorGroupThatMatchesSum(vector <vector <int> > vectorToCheck, int sumToMatch);
 
 private:
 	string testStatus;

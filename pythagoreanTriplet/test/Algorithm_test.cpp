@@ -82,3 +82,105 @@ TEST(FindPythagoreanTriplets, itShouldReturnAllPossiblePythagoreanTripletsOfR) {
 
 	EXPECT_EQ(correct,result);
 }
+
+TEST(FindVectorGroupThatMatchesSum, itShouldReturnTheVectorGroupThatMatchesTheSum) {
+	Algorithm algo = Algorithm();
+	int sumToMatch = 40;
+
+	vector <vector <int> > vectorToCheck;
+	vector <int> firstTriplet;
+	firstTriplet.push_back(7);
+	firstTriplet.push_back(24);
+	firstTriplet.push_back(25);
+
+	vector <int> secondTriplet;
+	secondTriplet.push_back(8);
+	secondTriplet.push_back(15);
+	secondTriplet.push_back(17);
+
+	vector <int> thirdTriplet;
+	thirdTriplet.push_back(9);
+	thirdTriplet.push_back(12);
+	thirdTriplet.push_back(15);
+
+	vectorToCheck.push_back(firstTriplet);
+	vectorToCheck.push_back(secondTriplet);
+	vectorToCheck.push_back(thirdTriplet);
+
+	vector <int> correct;
+	correct.push_back(8);
+	correct.push_back(15);
+	correct.push_back(17);
+
+
+	vector <int> result = algo.findVectorGroupThatMatchesSum(vectorToCheck, sumToMatch);
+
+	EXPECT_EQ(correct,result);
+}
+
+TEST(FindVectorGroupThatMatchesSum, itShouldReturnTheVectorGroupThatMatchesTheSumAgain) {
+	Algorithm algo = Algorithm();
+	int sumToMatch = 56;
+
+	vector <vector <int> > vectorToCheck;
+	vector <int> firstTriplet;
+	firstTriplet.push_back(7);
+	firstTriplet.push_back(24);
+	firstTriplet.push_back(25);
+
+	vector <int> secondTriplet;
+	secondTriplet.push_back(8);
+	secondTriplet.push_back(15);
+	secondTriplet.push_back(17);
+
+	vector <int> thirdTriplet;
+	thirdTriplet.push_back(9);
+	thirdTriplet.push_back(12);
+	thirdTriplet.push_back(15);
+
+	vectorToCheck.push_back(firstTriplet);
+	vectorToCheck.push_back(secondTriplet);
+	vectorToCheck.push_back(thirdTriplet);
+
+	vector <int> correct;
+	correct.push_back(7);
+	correct.push_back(24);
+	correct.push_back(25);
+
+
+	vector <int> result = algo.findVectorGroupThatMatchesSum(vectorToCheck, sumToMatch);
+
+	EXPECT_EQ(correct,result);
+}
+
+TEST(FindVectorGroupThatMatchesSum, itShouldReturnAnEmptyVectorIfThereAreNoMatches) {
+	Algorithm algo = Algorithm();
+	int sumToMatch = 1000;
+
+	vector <vector <int> > vectorToCheck;
+	vector <int> firstTriplet;
+	firstTriplet.push_back(7);
+	firstTriplet.push_back(24);
+	firstTriplet.push_back(25);
+
+	vector <int> secondTriplet;
+	secondTriplet.push_back(8);
+	secondTriplet.push_back(15);
+	secondTriplet.push_back(17);
+
+	vector <int> thirdTriplet;
+	thirdTriplet.push_back(9);
+	thirdTriplet.push_back(12);
+	thirdTriplet.push_back(15);
+
+	vectorToCheck.push_back(firstTriplet);
+	vectorToCheck.push_back(secondTriplet);
+	vectorToCheck.push_back(thirdTriplet);
+
+	vector <int> correct;
+
+
+	vector <int> result = algo.findVectorGroupThatMatchesSum(vectorToCheck, sumToMatch);
+
+	EXPECT_EQ(correct,result);
+}
