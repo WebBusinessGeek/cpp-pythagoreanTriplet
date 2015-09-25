@@ -101,3 +101,15 @@ vector <int> Algorithm::findVectorGroupThatMatchesSum(vector <vector <int> > vec
 	}
 	return returnValue;
 }
+
+int Algorithm::findProductOfVectorOfIntegers(vector <int> vectorGroup) {
+	int returnValue = 1;
+	int limit = vectorGroup.size();
+	int counter = 0;
+
+	while(counter < limit) {
+		returnValue *= vectorGroup[counter];
+		counter++;
+	}
+	return returnValue;
+}

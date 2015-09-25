@@ -184,3 +184,18 @@ TEST(FindVectorGroupThatMatchesSum, itShouldReturnAnEmptyVectorIfThereAreNoMatch
 
 	EXPECT_EQ(correct,result);
 }
+
+TEST(FindProductOfVectorOfIntegers, itShouldReturnTheProductOfAVectorIntegerGroup) {
+	Algorithm algo = Algorithm();
+
+	vector <int> vectorGroup;
+	vectorGroup.push_back(8);
+	vectorGroup.push_back(15);
+	vectorGroup.push_back(17);
+
+	int correct = 2040;
+
+	int result = algo.findProductOfVectorOfIntegers(vectorGroup);
+
+	EXPECT_EQ(correct, result);
+}

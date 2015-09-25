@@ -32,6 +32,9 @@ public:
 
 	vector <int> findVectorGroupThatMatchesSum(vector <vector <int> > vectorToCheck, int sumToMatch);
 
+	int findProductOfVectorOfIntegers(vector <int> vectorGroup);
+
+
 private:
 	string testStatus;
 

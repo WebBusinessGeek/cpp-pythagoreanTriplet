@@ -1,6 +1,6 @@
-19:32:17 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+19:42:16 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
 make all 
 make: Nothing to be done for `all'.
 
-19:32:17 Build Finished (took 96ms)
+19:42:16 Build Finished (took 89ms)
 
