@@ -199,3 +199,25 @@ TEST(FindProductOfVectorOfIntegers, itShouldReturnTheProductOfAVectorIntegerGrou
 
 	EXPECT_EQ(correct, result);
 }
+
+TEST(FindProductOfPythagoreanTripletWhoseSumMatches, itShouldReturnTheProductOfThePythagoreanTripletThatMatchesPassedInSum) {
+	Algorithm algo = Algorithm();
+	int sumToMatch = 56;
+
+	int result = algo.findProductOfPythagoreanTripletWhoseSumMatches(sumToMatch);
+
+	int correct = 4200;
+
+	EXPECT_EQ(correct, result);
+}
+
+TEST(TestIfProblemSolved, itShouldReturnTheAnswerToTheProblem) {
+	Algorithm algo = Algorithm();
+	int sumToMatch = 1000;
+
+	int result = algo.findProductOfPythagoreanTripletWhoseSumMatches(sumToMatch);
+
+	int correct = 31875000;
+
+	EXPECT_EQ(correct, result);
+}

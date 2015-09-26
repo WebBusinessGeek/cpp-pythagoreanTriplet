@@ -13,12 +13,20 @@
 		<item value="563" key="dialogHeight"/>
 		<item value="900" key="dialogWidth"/>
 		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.cdt.ui.editor.CEditorpythagoreanTriplet/src/Algorithm.cpp"/>
+			<item value="org.eclipse.cdt.ui.editor.CEditorpythagoreanTriplet/test/Algorithm_test.cpp"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.ui.editors"/>
+			<item value="org.eclipse.ui.editors"/>
 		</list>
 		<list key="textArray">
+			<item value="al"/>
+			<item value="s"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">

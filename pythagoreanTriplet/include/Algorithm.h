@@ -34,6 +34,7 @@ public:
 
 	int findProductOfVectorOfIntegers(vector <int> vectorGroup);
 
+	int findProductOfPythagoreanTripletWhoseSumMatches(int sumToMatch);
 
 private:
 	string testStatus;

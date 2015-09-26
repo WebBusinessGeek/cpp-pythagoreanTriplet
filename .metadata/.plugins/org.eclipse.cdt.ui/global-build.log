@@ -879,3 +879,73 @@ Finished building target: pythagoreanTriplet
 19:42:16 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
 make all 
 make: Nothing to be done for `all'.
+20:04:41 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../test/Algorithm_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/Algorithm_test.d" -MT"test/Algorithm_test.d" -o "test/Algorithm_test.o" "../test/Algorithm_test.cpp"
+Finished building: ../test/Algorithm_test.cpp
+ 
+Building file: ../src/Algorithm.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm.d" -MT"src/Algorithm.d" -o "src/Algorithm.o" "../src/Algorithm.cpp"
+../src/Algorithm.cpp:120:9: warning: variable 'returnValue' is uninitialized when used here [-Wuninitialized]
+        return returnValue;
+               ^~~~~~~~~~~
+../src/Algorithm.cpp:118:17: note: initialize the variable 'returnValue' to silence this warning
+        int returnValue;
+                       ^
+                        = 0
+1 warning generated.
+Finished building: ../src/Algorithm.cpp
+ 
+Building target: pythagoreanTriplet
+Invoking: MacOS X C++ Linker
+g++  -o "pythagoreanTriplet"  ./test/Algorithm_test.o ./test/gtest_main.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: pythagoreanTriplet
+ 
+20:04:47 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.
+20:12:56 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../src/Algorithm.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm.d" -MT"src/Algorithm.d" -o "src/Algorithm.o" "../src/Algorithm.cpp"
+Finished building: ../src/Algorithm.cpp
+ 
+Building target: pythagoreanTriplet
+Invoking: MacOS X C++ Linker
+g++  -o "pythagoreanTriplet"  ./test/Algorithm_test.o ./test/gtest_main.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: pythagoreanTriplet
+ 
+20:13:00 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.
+20:14:46 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../test/Algorithm_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/Algorithm_test.d" -MT"test/Algorithm_test.d" -o "test/Algorithm_test.o" "../test/Algorithm_test.cpp"
+Finished building: ../test/Algorithm_test.cpp
+ 
+Building target: pythagoreanTriplet
+Invoking: MacOS X C++ Linker
+g++  -o "pythagoreanTriplet"  ./test/Algorithm_test.o ./test/gtest_main.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: pythagoreanTriplet
+ 
+20:14:50 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+make: Nothing to be done for `all'.
+20:15:42 **** Incremental Build of configuration Debug for project pythagoreanTriplet ****
+make all 
+Building file: ../test/Algorithm_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/include" -I"/Users/MacBookEr/Desktop/techFit/c++/pythagoreanTriplet/pythagoreanTriplet/gtest_src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/Algorithm_test.d" -MT"test/Algorithm_test.d" -o "test/Algorithm_test.o" "../test/Algorithm_test.cpp"
+Finished building: ../test/Algorithm_test.cpp
+ 
+Building target: pythagoreanTriplet
+Invoking: MacOS X C++ Linker
+g++  -o "pythagoreanTriplet"  ./test/Algorithm_test.o ./test/gtest_main.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: pythagoreanTriplet
+ 

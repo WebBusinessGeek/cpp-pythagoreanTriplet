@@ -113,3 +113,22 @@ int Algorithm::findProductOfVectorOfIntegers(vector <int> vectorGroup) {
 	}
 	return returnValue;
 }
+
+int Algorithm::findProductOfPythagoreanTripletWhoseSumMatches(int sumToMatch) {
+	int returnValue;
+	int evenIntegerForR = 2;
+	bool tripletThatMatchesSumFound = false;
+
+	while(!tripletThatMatchesSumFound) {
+		int numberToFactor = this->squareIntegerAndDivideInHalf(evenIntegerForR);
+		vector <vector <int> > factors = this->getFactorsForInteger(numberToFactor);
+		vector <vector <int> > pythagoreanTriplets = this->findPythagoreanTriplets(evenIntegerForR, factors);
+		vector <int> checkIfMatch = this->findVectorGroupThatMatchesSum(pythagoreanTriplets, sumToMatch);
+		if(checkIfMatch.size() > 0) {
+			tripletThatMatchesSumFound = true;
+			returnValue = this->findProductOfVectorOfIntegers(checkIfMatch);
+		}
+		evenIntegerForR+=2;
+	}
+	return returnValue;
+}
